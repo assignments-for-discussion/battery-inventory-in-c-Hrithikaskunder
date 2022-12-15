@@ -33,7 +33,7 @@ for(i=0;i<sizeof(chargeCycleCounts);i++){
       assert(counts.mediumCount == counts.mediumCount+1 );
     
     }
-    else if(chargeCycleCounts[i]>930){
+    else if(chargeCycleCounts[i]>=930){
     
       assert(counts.highCount == counts.highCount+1 );
     }
