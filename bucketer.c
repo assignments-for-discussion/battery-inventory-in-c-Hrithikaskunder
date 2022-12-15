@@ -25,5 +25,6 @@ void testBucketingByNumberOfCycles() {
 
 int main() {
   testBucketingByNumberOfCycles();
+  printf("hsdsds");
   return 0;
 }
